@@ -1,0 +1,33 @@
+.hero {
+  @include make-row();
+  flex: 1;
+}
+.hero-segment {
+  @include make-col-ready();
+
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    @include make-col(12);
+  }
+
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    @include make-col(4);
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  &:nth-child(odd) {
+    background-color: #333;
+  }
+}
+.hero-segment-text {
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    font-size: 16px;
+  }
+}

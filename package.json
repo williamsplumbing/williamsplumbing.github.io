@@ -1,0 +1,24 @@
+{
+  "name": "williamsplumbing",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamsplumbing/williamsplumbing.github.io.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/williamsplumbing/williamsplumbing.github.io/issues"
+  },
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha.6",
+    "jquery": "~3.2.1"
+  },
+  "devDependencies": {
+  }
+}

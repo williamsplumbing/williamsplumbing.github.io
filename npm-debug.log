@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json williamsplumbing@0.0.0 No description
+5 warn package.json williamsplumbing@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing',
+7 verbose install   [ 'bootstrap', 'jquery' ] ]
+8 info preinstall williamsplumbing@0.0.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping bootstrap@~4.0.0-alpha.6 /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing
+11 verbose already installed skipping jquery@~3.2.1 /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing
+12 silly resolved []
+13 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing
+14 verbose linkStuff [ false, false, false, '/mnt/c/Users/Ricky Hopkins/Projects' ]
+15 info linkStuff williamsplumbing@0.0.0
+16 verbose linkBins williamsplumbing@0.0.0
+17 verbose linkMans williamsplumbing@0.0.0
+18 verbose rebuildBundles williamsplumbing@0.0.0
+19 verbose rebuildBundles [ '.bin',
+19 verbose rebuildBundles   'bootstrap',
+19 verbose rebuildBundles   'grunt',
+19 verbose rebuildBundles   'grunt-contrib-watch',
+19 verbose rebuildBundles   'grunt-jekyll',
+19 verbose rebuildBundles   'grunt-shell',
+19 verbose rebuildBundles   'jquery',
+19 verbose rebuildBundles   'load-grunt-tasks',
+19 verbose rebuildBundles   'time-grunt' ]
+20 verbose rebuild bundle /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt
+21 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt
+22 info preinstall grunt@1.0.1
+23 verbose linkStuff [ false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules' ]
+24 info linkStuff grunt@1.0.1
+25 verbose linkBins grunt@1.0.1
+26 verbose link bins [ { grunt: 'bin/grunt' },
+26 verbose link bins   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/.bin',
+26 verbose link bins   false ]
+27 verbose linkMans grunt@1.0.1
+28 verbose rebuildBundles grunt@1.0.1
+29 verbose rebuildBundles [ '.bin',
+29 verbose rebuildBundles   'coffee-script',
+29 verbose rebuildBundles   'dateformat',
+29 verbose rebuildBundles   'eventemitter2',
+29 verbose rebuildBundles   'exit',
+29 verbose rebuildBundles   'findup-sync',
+29 verbose rebuildBundles   'glob',
+29 verbose rebuildBundles   'grunt-cli',
+29 verbose rebuildBundles   'grunt-known-options',
+29 verbose rebuildBundles   'grunt-legacy-log',
+29 verbose rebuildBundles   'grunt-legacy-util',
+29 verbose rebuildBundles   'iconv-lite',
+29 verbose rebuildBundles   'js-yaml',
+29 verbose rebuildBundles   'minimatch',
+29 verbose rebuildBundles   'nopt',
+29 verbose rebuildBundles   'path-is-absolute',
+29 verbose rebuildBundles   'rimraf' ]
+30 info install grunt@1.0.1
+31 info postinstall grunt@1.0.1
+32 verbose rebuild bundle /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt-contrib-watch
+33 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt-contrib-watch
+34 info preinstall grunt-contrib-watch@0.6.1
+35 verbose linkStuff [ false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules' ]
+36 info linkStuff grunt-contrib-watch@0.6.1
+37 verbose linkBins grunt-contrib-watch@0.6.1
+38 verbose linkMans grunt-contrib-watch@0.6.1
+39 verbose rebuildBundles grunt-contrib-watch@0.6.1
+40 verbose rebuildBundles [ '.bin', 'async', 'gaze', 'lodash', 'tiny-lr-fork' ]
+41 info install grunt-contrib-watch@0.6.1
+42 info postinstall grunt-contrib-watch@0.6.1
+43 verbose rebuild bundle /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt-jekyll
+44 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt-jekyll
+45 info preinstall grunt-jekyll@0.4.6
+46 verbose linkStuff [ false,
+46 verbose linkStuff   false,
+46 verbose linkStuff   false,
+46 verbose linkStuff   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules' ]
+47 info linkStuff grunt-jekyll@0.4.6
+48 verbose linkBins grunt-jekyll@0.4.6
+49 verbose link bins [ { 'grunt-jekyll': 'bin/grunt-jekyll' },
+49 verbose link bins   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/.bin',
+49 verbose link bins   false ]
+50 verbose linkMans grunt-jekyll@0.4.6
+51 verbose rebuildBundles grunt-jekyll@0.4.6
+52 verbose rebuildBundles [ 'tmp' ]
+53 info install grunt-jekyll@0.4.6
+54 info postinstall grunt-jekyll@0.4.6
+55 verbose rebuild bundle /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt-shell
+56 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/grunt-shell
+57 info preinstall grunt-shell@1.3.1
+58 verbose linkStuff [ false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules' ]
+59 info linkStuff grunt-shell@1.3.1
+60 verbose linkBins grunt-shell@1.3.1
+61 verbose linkMans grunt-shell@1.3.1
+62 verbose rebuildBundles grunt-shell@1.3.1
+63 verbose rebuildBundles [ 'chalk', 'npm-run-path', 'object-assign' ]
+64 info install grunt-shell@1.3.1
+65 info postinstall grunt-shell@1.3.1
+66 verbose rebuild bundle /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/load-grunt-tasks
+67 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/load-grunt-tasks
+68 info preinstall load-grunt-tasks@0.6.0
+69 verbose linkStuff [ false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules' ]
+70 info linkStuff load-grunt-tasks@0.6.0
+71 verbose linkBins load-grunt-tasks@0.6.0
+72 verbose linkMans load-grunt-tasks@0.6.0
+73 verbose rebuildBundles load-grunt-tasks@0.6.0
+74 verbose rebuildBundles [ 'findup-sync', 'multimatch' ]
+75 info install load-grunt-tasks@0.6.0
+76 info postinstall load-grunt-tasks@0.6.0
+77 verbose rebuild bundle /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/time-grunt
+78 info build /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules/time-grunt
+79 info preinstall time-grunt@0.4.0
+80 verbose linkStuff [ false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   '/mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing/node_modules' ]
+81 info linkStuff time-grunt@0.4.0
+82 verbose linkBins time-grunt@0.4.0
+83 verbose linkMans time-grunt@0.4.0
+84 verbose rebuildBundles time-grunt@0.4.0
+85 verbose rebuildBundles [ '.bin',
+85 verbose rebuildBundles   'chalk',
+85 verbose rebuildBundles   'date-time',
+85 verbose rebuildBundles   'figures',
+85 verbose rebuildBundles   'hooker',
+85 verbose rebuildBundles   'pretty-ms',
+85 verbose rebuildBundles   'text-table' ]
+86 info install time-grunt@0.4.0
+87 info postinstall time-grunt@0.4.0
+88 info install williamsplumbing@0.0.0
+89 info postinstall williamsplumbing@0.0.0
+90 info prepublish williamsplumbing@0.0.0
+91 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+91 error peerinvalid Peer grunt-jekyll@0.4.6 wants grunt@>=0.4.1
+91 error peerinvalid Peer grunt-shell@1.3.1 wants grunt@>=0.4.0
+91 error peerinvalid Peer grunt-contrib-watch@0.6.1 wants grunt@~0.4.0
+92 error System Linux 3.4.0+
+93 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+94 error cwd /mnt/c/Users/Ricky Hopkins/Projects/williamsplumbing
+95 error node -v v0.10.25
+96 error npm -v 1.3.10
+97 error code EPEERINVALID
+98 verbose exit [ 1, true ]

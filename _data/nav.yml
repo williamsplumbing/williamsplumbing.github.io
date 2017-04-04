@@ -1,0 +1,14 @@
+- title: "Home"
+  href: "/"
+
+- title: "Services"
+  href: "/services"
+
+- title: "Pricing"
+  href: "/pricing"
+
+- title: "Projects"
+  href: "/projects"
+
+- title: "About us"
+  href: "/about"
