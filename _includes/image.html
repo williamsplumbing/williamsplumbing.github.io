@@ -1,9 +1,9 @@
 {% capture imagePath %}{{ include.name }}{% endcapture %}
 {% if include.caption %}
     <figure>
-        <img src="/assets/images/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+        <img src="/assets/images/{{ imagePath }}" {% if include.fluid %} class="img-fluid" {% endif %} {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
         <figcaption>{{ include.caption }}</figcaption>
     </figure>
 {% else %}
-    <img src="/assets/images/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+    <img src="/assets/images/{{ imagePath }}" {% if include.fluid %} class="img-fluid" {% endif %} {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
 {% endif %}

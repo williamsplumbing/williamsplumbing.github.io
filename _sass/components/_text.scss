@@ -10,3 +10,16 @@ body {
 .highlight {
   color: rgba(37, 170, 225, 1);
 }
+figure {
+  position: inherit;
+}
+figcaption {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .7);
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
