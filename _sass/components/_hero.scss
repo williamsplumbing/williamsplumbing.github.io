@@ -5,15 +5,21 @@ $images: 4;
   margin-left: -15px;
   height: 40vh;
   width: 100vw;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   overflow: hidden;
 
 	.hero-slider {
 		width: $images * 100vw;
-		animation: slide 16s infinite;
-		-moz-animation: slide 16s infinite;
-		-webkit-animation: slide 16s infinite;
-		-o-animation: slide 16s infinite;
+		animation: slide 30s infinite;
+		-moz-animation: slide 30s infinite;
+		-webkit-animation: slide 30s infinite;
+		-o-animation: slide 30s infinite;
+
+		@for $i from 0 to $images {
+			.hero-img:nth-child(#{$i + 1}) {
+				 background-image: url(../assets/images/home/image_0#{$i + 1}.jpg);
+			}
+		}
 	}
 
   .hero-img {
@@ -23,36 +29,13 @@ $images: 4;
 		height: 40vh;
 		width: 100vw;
 		float: left;
-
-		@for $i from 0 to $images {
-		  &:nth-child(#{$i + 1}) {
-		     background-image: url(../assets/images/home/image_0#{$i + 1}.jpg);
-		  }
-		}
   }
 }
 
-#cssSlider {
-  width: 800px;
-	height: 300px;
-	overflow: hidden;
-	border: 10px solid #666;
-}
-
-#sliderImages {
-	width : 4000px;
-	height: 300px;
-	overflow: hidden;
-
-	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
-	animation: slide 30s infinite;
-	-moz-animation: slide 30s infinite;
-	-webkit-animation: slide 30s infinite;
-	-o-animation: slide 30s infinite;
-}
-
-#sliderImages img {
-	float: left;
+@for $i from 0 to $images {
+  .hero-img-#{$i + 1} {
+     background-image: url(../assets/images/home/image_0#{$i + 1}.jpg);
+  }
 }
 
 @keyframes slide{
