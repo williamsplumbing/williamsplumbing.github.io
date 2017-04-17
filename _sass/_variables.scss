@@ -1,2 +1,7 @@
-$navbar-inverse-hover-color:           rgba(37, 170, 225, .75);
-$navbar-inverse-active-color:          rgba(37, 170, 225, 1);
+$w-grey: rgb(38, 38, 38);
+$w-blue: rgb(39, 170, 225);
+
+$navbar-inverse-hover-color:           $w-blue;
+$navbar-inverse-active-color:          $w-blue;
+$brand-inverse: $w-grey;
+$font-size-base: .9rem;

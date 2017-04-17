@@ -15,3 +15,13 @@ body {
   display: flex;
   width: 100%;
 }
+
+.padded-row {
+  @include make-row();
+  padding: 40px 0;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}

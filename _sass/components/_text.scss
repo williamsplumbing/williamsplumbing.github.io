@@ -1,14 +1,18 @@
 body {
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
 }
 .page-header {
   margin: 40px 0;
   color: rgba(37, 170, 225, 1);
+  text-transform: uppercase;
 }
 .highlight {
-  color: rgba(37, 170, 225, 1);
+  color: $w-blue;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 figure {
   position: inherit;
@@ -22,4 +26,7 @@ figcaption {
   color: #000;
   font-weight: 600;
   text-transform: uppercase;
+}
+.blob {
+  margin: 40px 0;
 }
