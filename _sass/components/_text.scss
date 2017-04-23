@@ -3,6 +3,9 @@ body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
 }
+a {
+  color: $w-blue;
+}
 .page-header {
   margin: 40px 0;
   color: rgba(37, 170, 225, 1);

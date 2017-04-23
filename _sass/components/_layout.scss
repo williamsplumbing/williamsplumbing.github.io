@@ -25,3 +25,10 @@ body {
   display: flex;
   align-items: center;
 }
+
+.home-content {
+  @include make-container();
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
